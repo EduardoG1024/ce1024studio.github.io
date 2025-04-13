@@ -1,0 +1,302 @@
+body{
+    background-color: #141d26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*-----NAVBAR-----*/
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 95vw;
+    height: 30px;
+    border: #fff solid 2px;
+    border-radius: 20px;
+    background-image: url('img/Captura\ de\ pantalla\ 2024-03-30\ 193111.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: monospace;
+    height: 25px;
+    border-radius: 10px;
+    width: fit-content;
+}
+/*-----BANNER-----*/
+header{
+    background: url('img/momav.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    height: 710px;
+    width: 95vw;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #ffff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulo{
+    text-align: center;
+}
+/*-----CONTENIDO-----*/
+.min{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+}
+.minn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    margin: 10px;
+    box-shadow: 10px 10px 20px;
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/stars3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/Captura\ de\ pantalla\ 2024-03-30\ 193111.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/BACKROOMS-A.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    margin: 10px;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 200px;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/hombre-filmando-camara-profesional.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-image: url('img/pexels-kyleloftusstudios-3379934.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    margin: 10px;
+}
+.red2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px;
+}
+hr{
+    width: 400px;
+}
+h3{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+button{
+    border: #fff solid 1px;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*-----FOOTER-----*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2c39;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    width: 95vw;
+    height: 80px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ima{
+    width: 40px;
+    margin: 10px;
+}
+.f{
+    color: #fff;
+    font-size: 12px;
+    font-family: cursive;
+}

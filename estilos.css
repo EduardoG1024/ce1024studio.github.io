@@ -1,0 +1,292 @@
+body {
+  background-image: url('img/BACKROOMS-A.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+/*-----NAVBAR-----*/
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 95vw;
+  height: 30px;
+  border: #fff solid 2px;
+  border-radius: 20px;
+  background-image: url('img/Captura\ de\ pantalla\ 2024-03-30\ 193111.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: monospace;
+  height: 25px;
+  border-radius: 10px;
+  width: fit-content;
+}
+p {
+  color: #fff;
+  font-family: cursive;
+  text-align: center;
+}
+.f{
+  color: #fff;
+  font-size: 12px;
+  font-family: cursive;
+}
+/*-----BANNER-----*/
+header {
+  background: url("img/ticket-2974645_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 710px;
+  width: 95vw;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.titulo {
+  width: 400px;
+  height: 650px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #000;
+}
+.tit {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+h1 {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.ima {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.ima2{
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+}
+hr{
+  width: 50%;
+  margin: 0
+}
+/*-----CONTENIDO-ARTICULOS-----*/
+h3 {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: fit-content;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  height: fit-content;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  margin: 15px;
+  color: #fff;
+  background-color: transparent;
+  backdrop-filter: blur(80px);
+  box-shadow: 10px 10px 50px #000;
+}
+.mini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95vw;
+  height: fit-content;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  margin: 10px;
+  background-color: transparent;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  width: 85vw;
+  height: fit-content;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(80px);
+  box-shadow: 10px 10px 50px #000;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  width: 95vw;
+  height: fit-content;
+  margin: 10px;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  background-color: transparent;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 450px;
+  height: fit-content;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(80px);
+  box-shadow: 10px 10px 50px #000;
+  text-align: center;
+  margin: 10px;
+}
+.unirte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95vw;
+  height: 200px;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  margin: 10px;
+ background-color: transparent;
+}
+.unir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  width: 350px;
+  height: 150px;
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 10px 10px 10px #000;
+}
+button {
+  border: #fff solid 1px;
+  border-radius: 30px;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  background-color: transparent;
+  color: #fff;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*-----QUESTIONS-----*/
+.hid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 95vw;
+  height: fit-content;
+  /*border: #fff solid 2px;*/
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px;
+  background-image: url("img/ticket-2974645_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+details {
+  margin: 10px;
+  padding: 10px;
+  font-family: cursive;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+}
+summary {
+  font-family: cursive;
+  font-size: 15px;
+}
+/*-----FOOTER-----*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  /*border: #fff solid 1px;*/
+  border-radius: 10px;
+  width: 95vw;
+  height: 80px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

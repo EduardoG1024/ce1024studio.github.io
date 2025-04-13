@@ -1,0 +1,201 @@
+body{
+    background-color: #141d26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*-----NAVBAR-----*/
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 95vw;
+    height: 30px;
+    border: #fff solid 2px;
+    border-radius: 20px;
+    background-image: url('img/Captura\ de\ pantalla\ 2024-03-30\ 193111.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: monospace;
+    height: 25px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.nav, p{
+    color: #fff;
+}
+/*-----BANNER-----*/
+header{
+    background: url('img/pexels-kyleloftusstudios-3379932.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 710px;
+    width: 95vw;
+    margin: 10px;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo{
+    width: 80vw;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #ffff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulo{
+    text-align: center;
+}
+/*-----CONTENIDO-----*/
+.min{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    margin: 10px;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background-image: url('img/pexels-cottonbro-4125611.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+.minn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 10px #000;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    margin: 10px;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background-image: url('img/pexels-kyleloftusstudios-7212455.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    box-shadow: 10px 10px 10px #000;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    margin: 10px;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background-image: url('img/pexels-conojeghuo-375885.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    height: fit-content;
+    margin: 10px;
+    /*border: #fff solid 1px;*/
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    box-shadow: 10px 10px 10px #000;
+}
+p{
+    color: #fff;
+    font-family: cursive;
+    margin: 10px;
+    text-align: center;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #fff;
+}
+hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+/*-----FOOTER-----*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2c39;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    width: 95vw;
+    height: 80px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ima{
+    width: 40px;
+    margin: 10px;
+}
