@@ -41,13 +41,13 @@ body {
 }
 p {
   color: #fff;
-  font-family: cursive;
+  font-family: monospace;
   text-align: center;
 }
 .f{
   color: #fff;
   font-size: 12px;
-  font-family: cursive;
+  font-family: monospace;
 }
 /*-----BANNER-----*/
 header {
